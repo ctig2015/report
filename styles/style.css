@@ -1,0 +1,76 @@
+
+header p{
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input [type ="radio"]
+{
+    width: 10px;
+}
+
+input[type="checkbox"] 
+{
+    width: 15px;
+}
+
+
+
+
+#button ,#reset {
+    top margin: .5em;
+    width: 8em;
+    background: orange;
+    border: 2px solid black;
+}
+
+#reset {
+    top margin: .5em;
+    
+    
+}
+
+em {
+    font: italic;
+    display: bold solid red;
+    left margin: .5px;
+}
+
+body {
+    font-family: sans-serif;
+    background background-image:url(../images/Saint_Peters.jpg);
+    margin: 10px;
+    
+}
+
+main {
+    margin: 15px 200px;
+    padding: 20px;
+    border: solid black;
+    min-height: 500px;
+}
+
+#button {
+    left margin: 138px;
+}
